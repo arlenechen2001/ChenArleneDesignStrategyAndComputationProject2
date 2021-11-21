@@ -1,0 +1,98 @@
+body{
+  width: 90%;
+  margin: 0 auto;
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.container{
+  text-align: center;
+}
+
+form{
+  max-width:500px;
+  margin:auto;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.icon {
+  padding: 10px;
+  background-color: #fff;
+  color: #2F394B;
+  text-align: center;
+}
+
+input[type="text"]{
+  width: 100%;
+  border: 1px solid #2F394B;
+  border-radius: 10px;
+  outline: none;
+  padding: 16px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+}
+
+::placeholder{
+  color: #2F394B;
+  font-size: 15px;
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+}
+
+.input-container input[type="text"]{
+  padding-left: 50px;
+}
+
+.input-container{
+  position: relative;
+}
+
+.icon{
+  position: absolute;
+  top: 11px;
+  left: 15px;
+  padding: 5px;
+  color: #2F394B;
+}
+
+.button{
+  text-align: center;
+  padding: 16px 60px;
+  background-color: #4F80DC;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0px 10px 15px rgba(79, 128, 220, 0.35);
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  font-family: museo-sans, sans-serif;
+  font-weight: 700;
+}
+
+#logo{
+  padding: 50px;
+  margin-top: 50px;
+}
+
+button{
+  border: none;
+  padding: 5px;
+  background: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+}
